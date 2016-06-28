@@ -1,0 +1,107 @@
+
+/*table style*/
+table.calendar { 
+    border-left:1px solid #999; 
+}
+
+tr.calendar-row {  
+
+}
+
+td.calendar-day button {
+    padding: 0;
+    font-size: 30px;
+}
+
+td.calendar-day { 
+    min-height:80px; 
+    font-size:30px;
+    font-weight: bold;
+    position:relative; 
+    text-align:center;
+} 
+* html div.calendar-day { 
+    height:80px;
+}
+td.calendar-day-np { 
+    min-height:80px; 
+} 
+* html div.calendar-day-np { 
+    height:80px; 
+}
+td.calendar-day-head { 
+    background:#ccc; 
+    font-weight:bold; 
+    text-align:center; 
+    width:120px; 
+    padding:5px; 
+    border-bottom:1px solid #999; 
+    border-top:1px solid #999; 
+    border-right:1px solid #999; 
+}
+div.day-number { 
+    padding:5px; 
+    color:#fff; 
+    font-weight:bold; 
+    float:right; 
+    margin:-5px -5px 0 0; 
+    width:20px; 
+    text-align:center; 
+}
+td.calendar-day, td.calendar-day-np { 
+    width:120px; 
+    padding:5px; 
+    border-bottom:1px solid #999; 
+    border-right:1px solid #999; 
+}
+
+.container {
+    padding-top:15px;
+}
+
+
+.top-nav {
+    height: 50px; 
+    background: #265D73;
+}
+
+
+@media (min-width: 768px) {
+  .top-nav {
+    height: 60px; 
+  }
+}
+
+textarea {
+    resize: vertical;
+}
+
+.username {
+    background:rgba(255, 255, 240, 0.9); 
+    padding:15px;
+    border-radius:10px;
+    margin-bottom: 15px;
+}
+.custom-panel {
+    background: rgba(255, 255, 255, 0.9); 
+    padding:15px;
+    border-radius:10px;
+    margin-bottom: 15px
+}
+
+body {
+    background:#D2E2FF;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover; 
+    transition: background 1s linear;
+}
+
+.panel{
+    background-color: rgba(240,248,255,0.8);
+}
+
+#welcome{
+    text-align: center;
+    color: white;
+}
